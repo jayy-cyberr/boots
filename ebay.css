@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container .head{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin: auto;
+    background-color: white;
+    border: 0.2px groove grey;
+    padding: 12px 22px;
+
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 950px;
+    border-radius: 30px;
+    
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #0968F6;
+    color: white;
+    border: none;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.carousel-inner{
+    padding-top: 0%;
+}
+
+.grandp{
+    border: 3px solid;
+    width: 92vw;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: #0968F6;
+    color: white;
+    border: none;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grandp .btn{
+    border-radius: 25px;
+    border-color: white;
+    background-color: #0968F6;
+}
+
+.grandp .btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.explore{
+    margin-top: 50px;
+    margin-left: 46px;
+}
+
+.text .h1{
+    font-weight: 600;
+}
+
+.text button{
+    border-radius: 25px;
+    padding: 12px;
+    padding-top: 6px;
+}
+
+.sneak{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.sneak .sneak-img{
+    width: 95vw;
+}
